@@ -17,13 +17,14 @@ Note: Java 8 or higher is fine.
 
 3) Open runUtil.bat in the editor of your choice (i.e. notepad)
 	a) Change JREDIR to the location of your Java runtime environment (i.e. C:\Program Files\jre7 )
-	b) Change the INPUTFILE to the full path of your Active Navigation spreadsheet (i.e. D:\path\to\DND-export.xlsx) - actual filename may vary
+	b) Change the INPUTFILE to the full path of your Active Navigation spreadsheet (i.e. D:\path\to\your-dept-export.xlsx) - actual filename may vary
 	
 3) Open a command window, and CD to the path you unzipped to in step 2);
 
 4) Type runUtil;
 
 That's it!!
+Please note that the input file should be an Excel spreadsheet (.xlsx) and not a CSV file. If you have a CSV file, you can open in Excel and save it as an Excel spreadsheet.
 
 Note that to configure the actual transformation, you can edit the properties file (in this case, DND-POC.properties). The properties
 file has lots of details about what each of the settings means. Send any questions to hugh@hferguson.ca.
