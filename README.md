@@ -13,7 +13,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 24.71-b01, mixed mode)
 
 Note: Java 8 or higher is fine.
 
-2) If you are reading this readme.txt from within the zip file, unpack the contents to the directory of your choice;
+2) If you are reading this on GitHub, click the "Clone or Download" button and select the Zip file option which will download this file and all the contents as a zip.  Unpack the contents to the directory of your choice;
 
 3) Open runUtil.bat in the editor of your choice (i.e. notepad)
 	a) Change JREDIR to the location of your Java runtime environment (i.e. C:\Program Files\jre7 )
@@ -26,5 +26,5 @@ Note: Java 8 or higher is fine.
 That's it!!
 
 Note that to configure the actual transformation, you can edit the properties file (in this case, DND-POC.properties). The properties
-file has lots of details about what each of the settings means. 
+file has lots of details about what each of the settings means. Send any questions to hugh@hferguson.ca.
 
